@@ -32,5 +32,7 @@ $(document).ready(function() {
     var userInput = parseInt($("#userinput").val());
     var output = playPingPong(userInput);
     $("#output").text(output);
+    $("#btn2").show();
+    $("#pingPong").hide();
   });
 });

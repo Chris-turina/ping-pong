@@ -11,11 +11,14 @@
     <div class="container">
       <h1 class="well">Ping-Pong</h1>
       <div class="row">
-        <div class="col-lg-4">
+        <div id="column-one" class="col-lg-4">
           <h3>About Ping-Pong</h3>
+          <p>Created by <strong>Chris Turina</strong></p>
+          <p>Click the button to go to the Github repository</p>
+          <a class="btn btn-default" href="https://github.com/Chris-turina/ping-pong.git" role="button">To Github</a>
 
         </div>
-        <div class="col-lg-8">
+        <div id="column-two"class="col-lg-8">
           <form id="pingPong">
             <div class="form-group">
               <h3>Let's Play</h3>
@@ -34,7 +37,10 @@
             </div>
 
           </form>
-          <p id="output"></p>
+          <form class="" action="index.html" method="post">
+            <p id="output"></p>
+            <button id="btn2" class="btn-danger" type="submit" name="button">Reset</button>
+          </form>
         </div>
 
       </div>
