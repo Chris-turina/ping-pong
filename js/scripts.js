@@ -12,7 +12,7 @@ var playPingPong = function(input) {
       } if (number % 15 == 0 && number != 0) {
         number = "pingpong"
       }
-      output = output + number
+      output = output + number + ","
 
 
 
@@ -31,7 +31,7 @@ $(document).ready(function() {
     event.preventDefault();
     var userInput = parseInt($("#userinput").val());
     var output = playPingPong(userInput);
-    // $("#output").text(output)
-    $("#output").append("<li>" + output + "<li>");
+    $("#output").append(output);
+    onsubmit= setTimeout(function(){window.location.reload();},10);
   });
 });
