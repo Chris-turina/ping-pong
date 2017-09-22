@@ -6,7 +6,7 @@
 
 ## Description
 
-_{Ping-Pong is a webpage that when given a number, it will list the numbers staring from zero, and change each number that is a multiple of: 3 and change that number to the word "ping", 5 and change that number to "pong", 15 and will change that number to "pingpong" }_
+_Ping-Pong is a webpage that when given a number, it will list the numbers staring from zero, and change each number that is a multiple of: 3 and change that number to the word "ping", 5 and change that number to "pong", 15 and will change that number to "pingpong" _
 
 ## Setup/Installation Requirements
 
@@ -28,15 +28,15 @@ _{Ping-Pong is a webpage that when given a number, it will list the numbers star
 
 ## Known Bugs
 
-_{The answer goes off the page due to the failed bullet point loop.}_
+_The answer goes off the page due to the failed bullet point loop._
 
 ## Support and contact details
 
-_{Please contact me at my email if any error are found.
-  christopher.mturina@gmail.com}_
+_Please contact me at my email if any error are found.
+  christopher.mturina@gmail.com_
 
 ## Technologies Used
 
-_{HTML, Bootstrap, Jquery, Javascript}_
+_HTML, Bootstrap, Jquery, Javascript_
 
-Copyright (c) 2017 **_{Chris Turina}_**
+Copyright (c) 2017 **_Chris Turina_**
