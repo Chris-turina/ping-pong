@@ -32,8 +32,8 @@ $(document).ready(function() {
     var userInput = parseInt($("#userinput").val());
     var output = playPingPong(userInput);
     $("ul#output").append("<li>" + output + "</li>");
-     $("#btn2").show();
-     $("#pingPong").hide();
+    //  $("#btn2").show();
+    //  $("#pingPong").hide();
   });
 });
 
