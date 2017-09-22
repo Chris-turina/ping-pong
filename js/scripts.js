@@ -32,6 +32,5 @@ $(document).ready(function() {
     var userInput = parseInt($("#userinput").val());
     var output = playPingPong(userInput);
     $("#output").append(output);
-    onsubmit= setTimeout(function(){window.location.reload();},10);
   });
 });
