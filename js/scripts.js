@@ -20,10 +20,16 @@ var playPingPong = function(input) {
 
 
     };
-  return output;
+  return output
 };
 
-
+var bullet = function(outputArrays) {
+  $("ul#output").empty();
+  outputArrays.forEach(function(outputArray) {
+    $("ul#output").append('<li>' + outputArray + '</li>');
+  });
+  return;
+};
 
 
 $(document).ready(function() {
@@ -31,8 +37,15 @@ $(document).ready(function() {
     event.preventDefault();
     var userInput = parseInt($("#userinput").val());
     var output = playPingPong(userInput);
-    $("#output").text(output);
-    $("#btn2").show();
-    $("#pingPong").hide();
+    bullet(output);
   });
-});
+
+
+
+    // $("ul#output").append("<li>" + output + "</li>");
+
+
+
+    // $("#btn2").show();
+    // $("#pingPong").hide();
+  });
