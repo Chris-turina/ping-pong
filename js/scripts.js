@@ -23,13 +23,7 @@ var playPingPong = function(input) {
   return output
 };
 
-var bullet = function(outputArrays) {
-  $("ul#output").empty();
-  outputArrays.forEach(function(outputArray) {
-    $("ul#output").append('<li>' + outputArray + '</li>');
-  });
-  return;
-};
+
 
 
 $(document).ready(function() {
@@ -37,15 +31,21 @@ $(document).ready(function() {
     event.preventDefault();
     var userInput = parseInt($("#userinput").val());
     var output = playPingPong(userInput);
-    bullet(output);
+    $("ul#output").append("<li>" + output + "</li>");
+     $("#btn2").show();
+     $("#pingPong").hide();
   });
+});
 
 
 
-    // $("ul#output").append("<li>" + output + "</li>");
-
-
-
-    // $("#btn2").show();
-    // $("#pingPong").hide();
-  });
+//failed bullet attempt
+// var bullet = function(outputArrays) {
+//   outputArrays = []
+//   console.log(outputArrays);
+//   $("ul#output").empty();
+//   outputArrays.forEach(function(outputArray) {
+//     $("ul#output").append('<li>' + outputArray + '</li>');
+//   });
+//   return;
+// };

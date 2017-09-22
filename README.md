@@ -13,7 +13,7 @@ _{Ping-Pong is a webpage that when given a number, it will list the numbers star
 * _Clone This repository_
 * _Open up your terminal and clone this into your choice of text editor_
 * _Open the idex.html webpage_
-* _Enter a number of yur choice_
+* _Enter a number of your choice_
 * _See the results_
 
 ## Specifications
@@ -28,7 +28,7 @@ _{Ping-Pong is a webpage that when given a number, it will list the numbers star
 
 ## Known Bugs
 
-_{ }_
+_{The answer goes off the page due to the failed bullet point loop.}_
 
 ## Support and contact details
 
